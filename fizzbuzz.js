@@ -1,11 +1,10 @@
-let numsArray = []
-let countCheck = []
-let fbCount = 0
-let fCount = 0
-let bCount = 0
-
 function fizzBuzz(totalNum) {
-    
+    let numsArray = []
+    let countCheck = []
+    let fbCount = 0
+    let fCount = 0
+    let bCount = 0
+
     for (let i = 1; i <= totalNum; i++) {
         i%5===0 && i%3===0 ? (console.log('FizzBuzz'), fbCount++) : 
         i%3===0 ? (console.log('Fizz'), fCount++) : 
