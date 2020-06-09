@@ -8,7 +8,8 @@ function fizzBuzz(totalNum) {
     for (let i = 1; i <= totalNum; i++) {
         i%5===0 && i%3===0 ? (console.log('FizzBuzz'), fbCount++) : 
         i%3===0 ? (console.log('Fizz'), fCount++) : 
-        i%5===0 && !i%3===0 ? (console.log('Buzz'), bCount++)  : (console.log(i), numsArray.push(i))
+        i%5===0 && !i%3===0 ? (console.log('Buzz'), bCount++)  : 
+        (console.log(i), numsArray.push(i))
     } 
     
     countCheck.push(fbCount, fCount, bCount)
